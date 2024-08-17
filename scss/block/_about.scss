@@ -1,0 +1,31 @@
+.about {
+    padding: 120px 0;
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__image {
+        width: 400px;
+        height: 500px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__information {
+        max-width: 600px;
+        min-height: 300px;
+        font-family: "Montserrat", sans-serif;
+        box-shadow: 0 0 10px $bgColor;
+        padding: 20px 30px;
+    }
+    &__descr {
+        margin-top: 20px;
+    }
+    &__arrow {
+        margin-top: 40px;
+    }
+}
